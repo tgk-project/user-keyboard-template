@@ -1,0 +1,25 @@
+{
+    "name": "example_keyboard",
+    "maintainer": "tgk-project",
+    "vendorId": "0x0000",
+    "productId": "0x0000",
+    "keyscan": "mx",
+    "matrix": { "rows": 2, "cols": 2 },
+    "keyscan_extra_configs": {
+        "diode_direction": "col2row"
+    },
+    "hid": [
+        "serial"
+    ],
+    "split": true,
+    "matrix_pins": {
+        "rows": ["D25", "D24"],
+        "cols": ["D26", "D19"]
+    },
+    "layouts": {
+        "keymap": [
+            ["0,0","0,1"],
+            ["1,0","1,1"]
+        ]
+    }
+}
